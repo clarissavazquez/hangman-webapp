@@ -48,7 +48,7 @@ public class HangmanResource {
         context.log("match called with oldPattern=" + oldPattern
                                    + " oldGuesses=" + oldGuesses
                                    + " newGuesses=" + newGuesses);
-        List<String> missing = new ArrayList<>();
+        List<String> missing = new ArrayList<String>();
         if (oldPattern == null) missing.add("oldPattern");
         if (oldGuesses == null) missing.add("oldGuesses");
         if (newGuesses == null) missing.add("newGuesses");
